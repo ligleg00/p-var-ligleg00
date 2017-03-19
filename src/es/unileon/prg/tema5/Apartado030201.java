@@ -32,6 +32,16 @@ package es.unileon.prg.tema5;
          cabecera("01","");
          String cadena = "En un lugar de la Mancha";
         // Inicio modificacion
+	cadena= "En un lugar de la Mancha";
+	int length = cadena.length();
+	int length2 = length/2;
+	char car = word.charAt(lenght/2);
+	int valor=100;
+
+	
+	System.out.println("El carácter que ocupa la posición intermedia es"+car);
+	System.out.println("El código ASCI que lo representa es"+valor);
+	}
         // Fin modificacion
       }
    
@@ -50,6 +60,13 @@ package es.unileon.prg.tema5;
          String cadena = "Viaje al Parnaso";
          String otraCadena = "ViAje al pArnaso";
       // Inicio modificacion
+	int comparacion = compareTo(cadena, otraCadena);
+	 System.out.prinln("El resultado de la comparación es"+comparacion);
+	int comparacion2 = int compareToIgnoreCase (cadena, otraCadena);
+	 System.out.prinln("El resultado de la comparación es"+comparacion2);
+	String comparacion3 = cadena.toLowerCase(otraCadena);
+	int comparacion3 = compareTo(cadena, otraCadena);
+	 System.out.prinln("El resultado de la comparación es"+comparacion3);
       // Fin modificacion
       }
    
@@ -68,6 +85,10 @@ package es.unileon.prg.tema5;
          String cadena = "Viaje al Parnaso";
          String otraCadena = "Persiles y Segismunda";
       // Inicio modificacion
+	String cadena2 = cadena + otraCadena;
+	String cadena3 = cadena.concat(otraCadena);
+	System.out.println("El resultado de concatenar las dos cadenas usando el operador + es"+ cadena2);
+	System.out.println("El resultado de concatenar las dos cadenas formando una tercera usando el método concat es"+cadena3);
         // Fin modificacion
       }
    
@@ -85,6 +106,10 @@ package es.unileon.prg.tema5;
          cabecera("04", "");
          String cadena = "Viaje al Parnaso";
         // Inicio modificacion
+	boolean termina = endsWith("Parnaso");
+	boolean empieza = startsWith("Parnaso");
+	System.out.println("¿La cadena termina con la palabra 'Parnaso'?"+termina);
+	System.out.println("¿La cadena empieza con la palabra 'Viaje'?"+empieza);
         // Fin modificacion
       }
    
@@ -103,7 +128,15 @@ package es.unileon.prg.tema5;
          cabecera("05","");
          String cadena = "Viaje al Parnaso";
       // Inicio modificacion
-        // Fin modificacion  
+	boolean letraP = cadena.indexOf("p");
+	boolean cadenaPar = cadena.indexOf("Par");
+	int ultimaOcurrencia = cadena.lastIndexOf("a");
+	int letraPosicion = cadena.indexOf("a");
+	System.out.println("¿Está el carácter 'p' en la cadena?"+letraP);
+	System.out.println("¿Está la cadena 'Par' en esta cadena?"+cadenaPar);
+	System.out.println("La última ocurrencia de la letra 'a' en la cadena está en la posición:"+ultimaOcurrencia);
+	System.out.println("La letra que se encuentra en la posición tres es:"+letraPosicion);
+      // Fin modificacion  
       }
    
    /**
@@ -120,6 +153,7 @@ package es.unileon.prg.tema5;
       
          String cadena = "Viaje al Parnaso";
       // Inicio modificacion
+	
       // Fin modificacion
       }
    
