@@ -60,13 +60,18 @@ package es.unileon.prg.tema5;
          String cadena = "Viaje al Parnaso";
          String otraCadena = "ViAje al pArnaso";
       // Inicio modificacion
-	int comparacion = compareTo(cadena, otraCadena);
+	if(int comparacion = cadena.compareTo(otraCadena)){
 	 System.out.prinln("El resultado de la comparación es"+comparacion);
-	int comparacion2 = int compareToIgnoreCase (cadena, otraCadena);
+	 }
+
+	if(int comparacion2 = cadena.compareToIgnoreCase (otraCadena)){
 	 System.out.prinln("El resultado de la comparación es"+comparacion2);
+	 }
+
 	String comparacion3 = cadena.toLowerCase(otraCadena);
-	int comparacion3 = compareTo(cadena, otraCadena);
+	if(int comparacion3 = cadena.compareTo(otraCadena)){
 	 System.out.prinln("El resultado de la comparación es"+comparacion3);
+	 }
       // Fin modificacion
       }
    
@@ -85,10 +90,12 @@ package es.unileon.prg.tema5;
          String cadena = "Viaje al Parnaso";
          String otraCadena = "Persiles y Segismunda";
       // Inicio modificacion
-	String cadena2 = cadena + otraCadena;
-	String cadena3 = cadena.concat(otraCadena);
-	System.out.println("El resultado de concatenar las dos cadenas usando el operador + es"+ cadena2);
-	System.out.println("El resultado de concatenar las dos cadenas formando una tercera usando el método concat es"+cadena3);
+	if(String cadena2 = cadena + otraCadena){
+		System.out.println("El resultado de concatenar las dos cadenas usando el operador + es"+ cadena2);
+	 }
+	if(String cadena3 = cadena.concat(otraCadena)){
+		System.out.println("El resultado de concatenar las dos cadenas formando una tercera usando el método concat es"+cadena3);
+	 }
         // Fin modificacion
       }
    
@@ -106,10 +113,12 @@ package es.unileon.prg.tema5;
          cabecera("04", "");
          String cadena = "Viaje al Parnaso";
         // Inicio modificacion
-	boolean termina = endsWith("Parnaso");
-	boolean empieza = startsWith("Parnaso");
-	System.out.println("¿La cadena termina con la palabra 'Parnaso'?"+termina);
-	System.out.println("¿La cadena empieza con la palabra 'Viaje'?"+empieza);
+	if (boolean termina = endsWith("Parnaso")){
+		System.out.println("¿La cadena termina con la palabra 'Parnaso'?"+termina);
+	 }
+	if(boolean empieza = startsWith("Parnaso")){
+		System.out.println("¿La cadena empieza con la palabra 'Viaje'?"+empieza);
+	 }
         // Fin modificacion
       }
    
@@ -128,14 +137,19 @@ package es.unileon.prg.tema5;
          cabecera("05","");
          String cadena = "Viaje al Parnaso";
       // Inicio modificacion
-	boolean letraP = cadena.indexOf("p");
-	boolean cadenaPar = cadena.indexOf("Par");
-	int ultimaOcurrencia = cadena.lastIndexOf("a");
-	int letraPosicion = cadena.indexOf("a");
-	System.out.println("¿Está el carácter 'p' en la cadena?"+letraP);
-	System.out.println("¿Está la cadena 'Par' en esta cadena?"+cadenaPar);
-	System.out.println("La última ocurrencia de la letra 'a' en la cadena está en la posición:"+ultimaOcurrencia);
-	System.out.println("La letra que se encuentra en la posición tres es:"+letraPosicion);
+	if(boolean letraP = cadena.indexOf("p")){
+		System.out.println("¿Está el carácter 'p' en la cadena?"+letraP);
+	 }
+	if(boolean cadenaPar = cadena.indexOf("Par")]{
+		System.out.println("¿Está la cadena 'Par' en esta cadena?"+cadenaPar);
+	 }
+	if(int ultimaOcurrencia = cadena.lastIndexOf("a")){
+		System.out.println("La última ocurrencia de la letra 'a' en la cadena está en la posición:"+ultimaOcurrencia);
+	 }
+	if(int letraPosicion = cadena.indexOf("a")){
+		System.out.println("La letra que se encuentra en la posición tres es:"+letraPosicion);
+	 }
+	
       // Fin modificacion  
       }
    
@@ -153,10 +167,12 @@ package es.unileon.prg.tema5;
       
          String cadena = "Viaje al Parnaso";
       // Inicio modificacion
-	String modificacion1 = cadena.replace(a,*);
-	String modificacion2 = cadena.replace(Parnaso,Olimpo);
-	System.out.println("La cadena obtenida reemplazando las ocurrencias de la letra'a' * es:"+modificacion1);
-	System.out.println("La cadena obtenida reemplazando las ocurrencias de la palabra 'Parnaso' por 'Olimpo' es:"+modificacion2);
+	if(String modificacion1 = cadena.replace(a,*)){
+		System.out.println("La cadena obtenida reemplazando las ocurrencias de la letra'a' * es:"+modificacion1);
+	 }
+	if(String modificacion2 = cadena.replace(Parnaso,Olimpo)){
+		System.out.println("La cadena obtenida reemplazando las ocurrencias de la palabra 'Parnaso' por 'Olimpo' es:"+modificacion2);
+	 }
       // Fin modificacion
       }
    
@@ -208,7 +224,15 @@ package es.unileon.prg.tema5;
          boolean expresion = true;
          long enteroGrande = 1231231L;
       // Inicio modificacion
-	
+	 if(String valorNumero = numero.valueOf(1.12e12)){
+		System.out.println("El valor del número es:"+valorNumero);
+	 }
+	 if(String valorExpresion = numero.valueOf(1.12e12)){
+		System.out.println("El valor de la expresión es:"+valorExpresion);
+	 }
+	 if(String valorenteroGrande = numero.valueOf(1.12e12)){
+		System.out.println("El valor del entero Grande es:"+valorenteroGrande);
+	 }
         // Fin modificacion
       }
    
@@ -217,13 +241,15 @@ package es.unileon.prg.tema5;
     *
     * </br>
     *
-    * Se pide compara las dos cadenas lexicograficamente y mostrar el resultado por pantalla.
+    * Se pide comparar las dos cadenas lexicograficamente y mostrar el resultado por pantalla.
     */
        public void ejercicio10() {
          cabecera("10", "");
          String cadena = "Viaje al Parnaso";
          String otraCadena = "Viaje al Olimpo";
       // Inicio modificacion
+	 int resultadoComparacion = cadena.compareTo(otraCadena);
+	 System.out.println("El resultado de comparar las dos cadenas es:"+resultadoComparación);
         // Fin modificacion
       }
    }
