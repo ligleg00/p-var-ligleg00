@@ -50,8 +50,8 @@ package es.unileon.prg.tema5;
          varLong   = varInt;
          varLong   = 9223372036854775807L;
          varFloat  = varLong;
-         varByte   = varShort;
-         varShort  = varInt;
+         //varByte   = varShort;
+         //varShort  = varInt;
       
       }
    
@@ -73,6 +73,11 @@ package es.unileon.prg.tema5;
          long varLong;
       
          varLong=35000L;
+	 varByte = (byte)varLong;
+	 varShort = (short)varLong;
+	 varInt = (int)varLong;
+	System.out.println("varLong="+varLong+"varByte ="+varByte+"varShort = "+varShort+"varInt ="+varInt);
+	
       // Fin modificacion
       }
    
@@ -95,6 +100,13 @@ package es.unileon.prg.tema5;
          float varFloat;
          double varDouble;
          varFloat= 123.1f;
+	 varByte=(byte)varFloat;
+	 varShort =(short)varFloat;
+	 varInt=(int)varFloat;
+	 varLong=(long)varFloat;
+	 varDouble=(double)varFloat;
+	 System.out.println("varByte = "+varByte+" varShort = "+varShort+" varInt = "+varInt+" varLong = "+varLong+" varFloat = "+varFloat);
+	 System.out.println("varDouble = "+varDouble);
         // Fin modificacion
       }
    
@@ -130,7 +142,7 @@ package es.unileon.prg.tema5;
          System.out.println("Short : " + s);    
          System.out.println("Int   : " + i);
       
-         float f = 1.3e22;   
+         double f = 1.3e22;   
          System.out.println("f: " + f);    
       }
    }

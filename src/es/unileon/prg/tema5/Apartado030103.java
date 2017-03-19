@@ -28,7 +28,11 @@ public class Apartado030103 extends Apartado {
 	public void ejercicio01() {
 		cabecera("01", "Calcular la raiz cuadrada de un numero");
 
-		// Inicio modificacion
+		// Inicio modificacion	
+		int numero1=256;
+		numero1=(int) (Math.sqrt(numero1));
+		System.out.println("La raíz cuadrada de " + numero1 + " es " +Math.sqrt(numero1));
+
 		// Fin modificacion
 	}
 
@@ -45,6 +49,11 @@ public class Apartado030103 extends Apartado {
 		cabecera("02", "Calcular potencias");
 
 		// Inicio modificacion
+		int numero1=9;
+		numero1=(int) (Math.pow(numero1,3));
+		System.out.println("Resultado = "+numero1);
+
+
 		// Fin modificacion
 	}
 
@@ -60,6 +69,9 @@ public class Apartado030103 extends Apartado {
 		cabecera("03", "Generar numeros aleatorios");
 
 		// Inicio modificacion
+		double Aleatorio = Math.random()*10+5;
+		int valor = (int)Aleatorio;
+		System.out.println("El número aleatorio entre 5 y 15 que usted obtiene es "+valor);
 		// Fin modificacion
 	}
 
@@ -75,6 +87,10 @@ public class Apartado030103 extends Apartado {
 		cabecera("04", "Calcular la superficie de un circulo");
 
 		// Inicio modificacion
+		double radio=10;
+		double area;
+		area=Math.PI*(Math.pow(radio,2));
+		System.out.println("Area = "+area);
 		// Fin modificacion
 	}
 }

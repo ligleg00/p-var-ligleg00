@@ -1,9 +1,17 @@
 Practica P-VAR
 
-Alumno:
+Alumno:Laura Iglesias Gondar
 
-Horas dedicadas:
+Horas dedicadas:12
 
-Problemas surgidos al realizar la practica:
+Problemas surgidos al realizar la practica: Diversos ya que estoy empezando a programar.
 
-Respuestas a la preguntas:
+Respuestas a la preguntas:-Apartado 030101(Ejercicio 04):puesto que la conversión de decimal en float al lenguaje máquina no es exacto el 				   resultado es el obtenido.
+			  -Apartado 030101(Ejercicio 05): obtenemos ese resultado ya que se asigna un espacio y es guardado mejor que lo sería 				   en un float.
+			  -Apartado 030104(Ejercicio 04):los resultados obtenidos son consecuencia de un tipo pequeño por lo que se 				   recomendaría utilizar uno de mayor tamaño.
+
+
+
+
+
+

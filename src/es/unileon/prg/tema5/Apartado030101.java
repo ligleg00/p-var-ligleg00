@@ -28,22 +28,22 @@ public class Apartado030101 extends Apartado {
 	 * tipos de datos basicos.
 	 */
 	public void ejercicio01() {
-		cabecera("01", "Correccion de errores de compilacion");
+		 cabecera("01", "Correccion de errores de compilacion");
 
 		// Inicio modificacion
-		Int entero = 6;
-		long otroEntero = 1.000;
-		long decimal = 7.0;
-		double otroDecimal = 7,0;
-		byte enteroDe8Bits = 10000;
-		char caracter = a;
-		char otroCaracter = "a";
-		boolean booleano = "true";
-		short enteroDe16Bits = 50000;
+		float entero = 6;
+		long otroEntero = 1000;
+		float decimal = 7.0f;
+		float otroDecimal = 7.0f;
+		long enteroDe8Bits = 10000;
+		char caracter = 'a';
+		char otroCaracter = 'a';
+		boolean booleano = true;
+		long enteroDe16Bits = 50000;
 
-		byte static = 5;
-		byte int = 3;
-		double _otra-Variable = 2.0;
+		byte numero1 = 5;
+		byte numero2 = 3;
+		double otraVariable = 2.0;
 		// Fin modificacion
 	}
 
@@ -56,19 +56,19 @@ public class Apartado030101 extends Apartado {
 	 * adecuado para cada literal.
 	 */
 	public void ejercicio02() {
-		cabecera("02", "Definicion de tipo de datos");
+		 cabecera("02", "Definicion de tipo de datos");
 
 		// Inicio modificacion
-		variable1 = 637;
-		variable2 = 637L;
-		variable3 = 6.37;
-		variable4 = 6.37f;
-		variable5 = 6.37d;
-		variable6 = '6';
-		variable7 = "6.37";
-		variable8 = 'a';
-		variable9 = "a";
-		variable10 = true;
+		int variable1 = 637;
+		long variable2 = 637L;
+		double variable3 = 6.37d;
+		float variable4 = 6.37f;
+		double variable5 = 6.37d;
+		char variable6 = '6';
+		double variable7 = 6.37d;
+		char variable8 = 'a';
+		char variable9 = 'a';
+		boolean variable10 = true;
 		// Fin modificacion
 	}
 
@@ -81,20 +81,30 @@ public class Apartado030101 extends Apartado {
 	 * referida en los comentarios.
 	 */
 	public void ejercicio03() {
-		cabecera("03", "Definicion de variables");
+		 cabecera("03", "Definicion de variables");
 
 		// Inicio modificacion
 
 		//Numero de asignaturas de un curso
+		byte numeroAsignaturas = 10;
 		//Nota media de la asignatura
+		float notaMedia = 7.2f;
 		//Edad de una persona
+		int edadPersona = 18;
 		//Salario mensual de un empleado
+		float salarioMensual = 1500.50f;
 		//Nombre de una asignatura
+		String nombreAsignatura = "Programacion";
 		//Constante PI
+		final float pi = 3.1416f;
 		//Constante VERDADERO
+		boolean constante = true;
 		//Portal de la direccion de una vivienda
+		int numeroPortal = 14;
 		//Piso de la direccion de una vivienda
+		int PisoDireccion = 2;
 		//Puerta la direccion de una vivienda
+		int puertaDireccion = 9;
 
 		// Fin modificacion
 	}
@@ -113,11 +123,11 @@ public class Apartado030101 extends Apartado {
 	 * </ul>
 	 */
 	public void ejercicio04() {
-		cabecera("04", "Formato decimales");
+		 cabecera("04", "Formato decimales");
 
 		// Inicio modificacion
-		double valor1 = 2.8;
-		double valor2 = 1.5;
+		double valor1 = 2.8d;
+		double valor2 = 1.5d;
 
 		double resultado = valor1 - valor2;
 		System.out.println(valor1+" - "+valor2+" = "+resultado);
@@ -138,7 +148,7 @@ public class Apartado030101 extends Apartado {
 	 * </ul>
 	 */
 	public void ejercicio05() {
-		cabecera("05", "La clase <<BigDecimal>>");
+		 cabecera("05", "La clase <<BigDecimal>>");
 
 		// Inicio modificacion
 		BigDecimal valor1 = new BigDecimal("2.8");
