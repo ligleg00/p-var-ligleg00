@@ -12,13 +12,13 @@ public class Profesor {
 	 *
 	 * @see String
 	 */
-	private String _niu;
+	public String _niu;
 	/**
 	 * Nombre del profesor
 	 *
 	 * @see String
 	 */
-	private String _nombre;
+	public String _nombre;
 
 	/**
 	 * Constructor de la clase. Crea un profesor con la informacion recibida
@@ -31,6 +31,15 @@ public class Profesor {
 	public Profesor(String niu, String nombre) {
 		_niu = niu;
 		_nombre = nombre;
+	}
+	public String toString() {
+		StringBuffer salida = new StringBuffer();
+		
+		salida.append("NIU: "+_niu+" ");
+		salida.append("Nombre: "+_nombre+" ");
+		
+		
+		return salida.toString();
 	}
 }
 

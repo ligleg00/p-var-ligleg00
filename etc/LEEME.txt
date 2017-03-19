@@ -8,10 +8,13 @@ Problemas surgidos al realizar la practica: Diversos ya que estoy empezando a pr
 
 Respuestas a la preguntas:-Apartado 030101(Ejercicio 04):puesto que la conversión de decimal en float al lenguaje máquina no es exacto el 				   resultado es el obtenido.
 			  -Apartado 030101(Ejercicio 05): obtenemos ese resultado ya que se asigna un espacio y es guardado mejor que lo sería 				   en un float.
-			  -Apartado 030104(Ejercicio 04):los resultados obtenidos son consecuencia de un tipo pequeño por lo que se 				   recomendaría utilizar uno de mayor tamaño.
+			  -Apartado 030104(Ejercicio 04): los resultados obtenidos son consecuencia de un tipo pequeño por lo que se 				   recomendaría utilizar uno de mayor tamaño.
+			  -Apartado 030201(Ejercicio 10): el resultado obtenido es numérico ya que se realiza una resta de las dos cadenas para 			    saber cuan distintas o parecidas son.
+			  -Apartado 030202(Ejercicio 01): la diferencia entre length() y capacity() es que el primero nos da el valor de la 				    longitud de la cadena, por ejemplo, mientras que el segundo la capacidad, esto es, cuantos valores puede contener.
+			  -Apartado 030203(Ejercicio 01): ejecutando el ejercicio se nos muestran dos valores (5 y 10.5) así como el texto 				   "Cadena de caracteres" y el correo electrónico del alumno.
+							 -eliminando los comentarios del metodo <<toString()>> de la clase <<Alumno>> se 								  muestra además el NIU, el nombre del alumno y su nota.
 
-
-
-
+	
+		
 
 
