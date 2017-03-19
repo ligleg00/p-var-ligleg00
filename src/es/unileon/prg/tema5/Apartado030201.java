@@ -153,7 +153,10 @@ package es.unileon.prg.tema5;
       
          String cadena = "Viaje al Parnaso";
       // Inicio modificacion
-	
+	String modificacion1 = cadena.replace(a,*);
+	String modificacion2 = cadena.replace(Parnaso,Olimpo);
+	System.out.println("La cadena obtenida reemplazando las ocurrencias de la letra'a' * es:"+modificacion1);
+	System.out.println("La cadena obtenida reemplazando las ocurrencias de la palabra 'Parnaso' por 'Olimpo' es:"+modificacion2);
       // Fin modificacion
       }
    
@@ -170,6 +173,9 @@ package es.unileon.prg.tema5;
          cabecera("07", "");
          String cadena = "Viaje al Parnaso";
       // Inicio modificacion
+	int mitadCadena = cadea.length()/2;
+	String nuevaCadena = cadena.substring (mitadCadena);		
+	System.out.println("La cadena que va desde la mitad al final es:"+mitadCadena);
         // Fin modificacion
       }
    
@@ -184,6 +190,8 @@ package es.unileon.prg.tema5;
          cabecera("08", "");
          String cadena = " La Galatea   ";
       // Inicio modificacion
+	String nuevaCadena = cadena.replace( La Galatea   ,La Galatea);
+	System.out.println("La cadena obtenida tras las modificaciones es:"+nuevaCadena);
         // Fin modificacion
       }
    
@@ -200,6 +208,7 @@ package es.unileon.prg.tema5;
          boolean expresion = true;
          long enteroGrande = 1231231L;
       // Inicio modificacion
+	
         // Fin modificacion
       }
    
